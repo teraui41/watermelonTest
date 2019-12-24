@@ -5,8 +5,8 @@
  * @format
  * @flow
  */
-
 import React, { Fragment } from 'react';
+import ScreenEE from './screens'
 import {
   SafeAreaView,
   StyleSheet,
@@ -30,6 +30,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <Text>123</Text>
+        <ScreenEE />
       </SafeAreaView>
     </Fragment>
   );
